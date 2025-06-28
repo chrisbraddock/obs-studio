@@ -55,6 +55,7 @@ add_obs_plugin(mac-syphon PLATFORMS MACOS)
 add_obs_plugin(mac-videotoolbox PLATFORMS MACOS)
 add_obs_plugin(mac-virtualcam PLATFORMS MACOS)
 add_obs_plugin(nv-filters PLATFORMS WINDOWS)
+add_obs_plugin(obs-ai-analysis-filter) # Our new AI analysis filter
 
 check_obs_browser()
 
